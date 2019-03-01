@@ -2,11 +2,17 @@
 Experimental Ubuntu 18 Lamp server inside a docker container
 
 Install Docker on your machine
+
 Clone this repository
+
 Place your html/php files in public_html
+
 Place your sql dump in sql_dump/db_dump.sql
+
 cd docker
+
 execute docker-compose up --build
+
 
 The container build will take 5 to 10 minutes depending on your machine specs
 
