@@ -16,6 +16,7 @@ You can also access whatever you have put in public_html using http://localhost:
 You can tweak your host config, by changing docker/configs/apache/000-default.conf
 
 You can change by modifying docker/Docerfile :
+    
     ssh password by modifying Line 6 (ARG sshpass="123456")
     php version by modifying Line 7 (ENV php_version="7.1")
     MySql database name Line 8 (ENV sql_db_name="johannfe_test_db")
