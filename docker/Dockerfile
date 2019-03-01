@@ -1,4 +1,4 @@
-#WARNING: Replace all '<CHANGE-ME>' to the actual passwords you want
+#WARNING: Replace credentials from line 6 to line 10
 FROM ubuntu:18.04
 USER root
 
