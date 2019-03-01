@@ -8,7 +8,7 @@ Place your sql dump in sql_dump/db_dump.sql
 cd docker
 execute docker-compose up --build
 
-The container build will take 5 to 10 minutes depending of your machine specs
+The container build will take 5 to 10 minutes depending on your machine specs
 
 Once the build is complete, you can ssh to the container on port 2022 (ssh root@localhost -p 2022)
 You can also access whatever you have put in public_html using http://localhost:2080
