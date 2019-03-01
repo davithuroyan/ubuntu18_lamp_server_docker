@@ -13,7 +13,7 @@ The container build will take 5 to 10 minutes depending on your machine specs
 Once the build is complete, you can ssh to the container on port 2022 (ssh root@localhost -p 2022)
 You can also access whatever you have put in public_html using http://localhost:2080
 
-You can tweak your host config, by changing docker/configs/apache/000-default.conf
+You can tweak your apache host config, by changing docker/configs/apache/000-default.conf
 
 You can change by modifying docker/Dockerfile :
     
