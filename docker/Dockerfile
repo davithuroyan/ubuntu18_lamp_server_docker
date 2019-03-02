@@ -1,5 +1,6 @@
-#WARNING: Replace credentials from line 6 to line 10
+#WARNING: Replace credentials from line 6 to line 11
 FROM ubuntu:18.04
+MAINTAINER Johann Fenech, jf@johannfenech.com 
 USER root
 
 #set your ssh password, php_version, sql database name, username, and password below
