@@ -16,5 +16,5 @@ services:
           - "2080:80" # Both 2080 and 8000 port are using apache
           - "2022:22"
           - "2036:3306"
-        container_name: "docker-ssh-lamp"
+        container_name: "jf-docker-ubuntu-ssh-lamp"
         entrypoint: /app/docker_start.sh
